@@ -1,11 +1,4 @@
 
-// "use strict"
-
-// let eye = 'green' ;
-// let userName = 'Vasia';
-// let user = userName; 
-// console.log(user);
-
 $(document).ready(function() {
 	$('.burger').click(function(){
 		$('.nav-links').toggleClass('activeMod');
@@ -19,10 +12,19 @@ $(document).ready(function() {
 			$('body').removeClass('body-mod');
 		}
 	});
+
+	$('.slider').slick({
+		arrows:false,
+		dots: true,
+		infinite: true,
+  		slidesToShow: 1,
+  		slidesToScroll: 1,
+  		centerMode: true,
+  		speed:1000,
+  		autoplay: true,
+  		autoplaySpeed:3000,
+  		centerMode:true,
+  		initialslide:1,
+	});
 });
 
-function JavaScript() {
-	
-}
-
-JavaScript();
