@@ -429,3 +429,119 @@ nav {
   line-height: 1.5;
   color: rgb(170, 170, 170);
 }
+
+.section-5 {
+  max-height: 800px;
+  margin-top: 17.1641791045%;
+}
+.section-5 .first-frame {
+  background: url("../img/section5/background.jpg") top left/cover no-repeat;
+  height: 100%;
+}
+
+.section-5__items {
+  padding: 8.9552238806% 0 9.7014925373% 0;
+  margin-left: 13.5820895522%;
+  max-width: 230px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+  color: white;
+}
+
+.section-5__item {
+  margin-top: 17.3913043478%;
+}
+.section-5__item a {
+  font-size: clamp(8px, 1.1111111111vw, 16px);
+  line-height: 0.75;
+}
+
+.section-5__stars img {
+  width: 20px;
+}
+
+.section-5__text {
+  font-size: clamp(12px, 1.6666666667vw, 24px);
+  line-height: 1.3333333333;
+}
+
+.section-5__description img {
+  width: 100px;
+}
+
+.section-6 {
+  margin-top: 18.4615384615%;
+}
+
+.section-6__text {
+  margin: 0 auto;
+  max-width: 885px;
+  font-size: clamp(23px, 3.1944444444vw, 46px);
+  line-height: 1.1304347826;
+  color: #AAAAAA;
+}
+
+.section-6__subtext {
+  font-size: clamp(23px, 3.1944444444vw, 46px);
+  line-height: 1.1304347826;
+  max-width: 882px;
+  margin: 0 auto 10.3846153846%;
+  margin-top: 1.9230769231%;
+}
+
+.section-6__container {
+  margin-bottom: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 1300px;
+  padding: 0 3.8461538462%;
+}
+
+.section-6__left {
+  max-width: 671px;
+}
+.section-6__left img {
+  max-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.section-6__right {
+  margin: 0 6.9230769231%;
+}
+
+.righ_mod {
+  -webkit-box-ordinal-group: 0;
+      -ms-flex-order: -1;
+          order: -1;
+}
+
+.right__title {
+  font-size: clamp(16px, 2.2222222222vw, 32px);
+  line-height: 1.125;
+  max-width: 311px;
+}
+
+.right__text {
+  font-size: clamp(8px, 1.1111111111vw, 16px);
+  line-height: 1.5;
+  max-width: 311px;
+  color: #AAAAAA;
+}
