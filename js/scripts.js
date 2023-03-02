@@ -26,5 +26,18 @@ $(document).ready(function() {
   		centerMode:true,
   		initialslide:1,
 	});
+	$('.slider2').slick({
+		arrows:false,
+		dots: false,
+		infinite: true,
+  		slidesToShow: 1,
+  		slidesToScroll: 1,
+  		centerMode: true,
+  		speed:1000,
+  		autoplay: true,
+  		autoplaySpeed:3000,
+  		centerMode:true,
+  		initialslide:1,
+	});
 });
 

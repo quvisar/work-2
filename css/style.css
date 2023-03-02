@@ -243,13 +243,13 @@ nav {
 
 .frame-2-left {
   font-family: "Roboto";
-  font-size: clamp(24px, 3.3333333333vw, 48px);
+  font-size: clamp(29px, 3.3333333333vw, 48px);
   line-height: 1.2083333333;
   max-width: 26.6917293233%;
 }
 
 .frame-2-right {
-  font-size: clamp(12px, 1.6666666667vw, 24px);
+  font-size: clamp(17px, 1.6666666667vw, 24px);
   line-height: 2;
   max-width: 42.8571428571%;
   color: rgb(170, 170, 170);
@@ -286,7 +286,7 @@ nav {
 
 .card-text {
   margin-top: 0.3472222222%;
-  font-size: clamp(12px, 1.6666666667vw, 24px);
+  font-size: clamp(17px, 1.6666666667vw, 24px);
   line-height: 1.1666666667;
   font-weight: 400;
 }
@@ -298,12 +298,12 @@ nav {
 }
 
 .form3__title {
-  font-size: clamp(24px, 3.3333333333vw, 48px);
+  font-size: clamp(29px, 3.3333333333vw, 48px);
   line-height: 1;
 }
 
 .form3__text {
-  font-size: clamp(12px, 1.6666666667vw, 24px);
+  font-size: clamp(17px, 1.6666666667vw, 24px);
   line-height: 1.5;
   margin-top: 1.875%;
   color: rgb(74, 74, 74);
@@ -383,14 +383,14 @@ nav {
 }
 
 .section-4__text {
-  font-size: clamp(24px, 3.3333333333vw, 48px);
+  font-size: clamp(29px, 3.3333333333vw, 48px);
   line-height: 1.1666666667;
   margin-bottom: 25px;
 }
 
 .section-4__link {
   color: rgb(70, 133, 110);
-  font-size: clamp(7px, 0.9722222222vw, 14px);
+  font-size: clamp(12px, 0.9722222222vw, 14px);
   line-height: 0.8571428571;
 }
 
@@ -419,13 +419,13 @@ nav {
 
 .container__description {
   margin-top: 25px;
-  font-size: clamp(12px, 1.6666666667vw, 24px);
+  font-size: clamp(17px, 1.6666666667vw, 24px);
   line-height: 1;
 }
 
 .container__text {
   margin-top: 18px;
-  font-size: clamp(8px, 1.1111111111vw, 16px);
+  font-size: clamp(13px, 1.1111111111vw, 16px);
   line-height: 1.5;
   color: rgb(170, 170, 170);
 }
@@ -461,7 +461,7 @@ nav {
   margin-top: 17.3913043478%;
 }
 .section-5__item a {
-  font-size: clamp(8px, 1.1111111111vw, 16px);
+  font-size: clamp(13px, 1.1111111111vw, 16px);
   line-height: 0.75;
 }
 
@@ -470,7 +470,7 @@ nav {
 }
 
 .section-5__text {
-  font-size: clamp(12px, 1.6666666667vw, 24px);
+  font-size: clamp(17px, 1.6666666667vw, 24px);
   line-height: 1.3333333333;
 }
 
@@ -486,13 +486,13 @@ nav {
 .section-6__text {
   margin: 0 auto;
   max-width: 885px;
-  font-size: clamp(23px, 3.1944444444vw, 46px);
+  font-size: clamp(28px, 3.1944444444vw, 46px);
   line-height: 1.1304347826;
   color: #AAAAAA;
 }
 
 .section-6__subtext {
-  font-size: clamp(23px, 3.1944444444vw, 46px);
+  font-size: clamp(28px, 3.1944444444vw, 46px);
   line-height: 1.1304347826;
   max-width: 882px;
   margin: 0 auto 10.3846153846%;
@@ -535,19 +535,20 @@ nav {
 }
 
 .right__title {
-  font-size: clamp(16px, 2.2222222222vw, 32px);
+  font-size: clamp(21px, 2.2222222222vw, 32px);
   line-height: 1.125;
   max-width: 311px;
 }
 
 .right__text {
-  font-size: clamp(8px, 1.1111111111vw, 16px);
+  font-size: clamp(13px, 1.1111111111vw, 16px);
   line-height: 1.5;
   max-width: 311px;
   color: #AAAAAA;
 }
 
 .section8__container {
+  padding-bottom: 25px;
   padding-top: 5.25%;
   max-width: 1200px;
   margin: 0 auto;
@@ -557,7 +558,7 @@ nav {
 }
 
 .section8__title {
-  font-size: clamp(23px, 3.1944444444vw, 46px);
+  font-size: clamp(28px, 3.1944444444vw, 46px);
   line-height: 1.0869565217;
 }
 
@@ -574,7 +575,7 @@ nav {
 }
 
 .section8__description {
-  font-size: clamp(6px, 0.8333333333vw, 12px);
+  font-size: clamp(11px, 0.8333333333vw, 12px);
   line-height: 1.1666666667;
   margin-top: 20.8333333333%;
 }
@@ -600,7 +601,130 @@ nav {
 
 .section8__sub-title {
   margin-top: 1.75%;
-  font-size: clamp(6px, 0.8333333333vw, 12px);
+  font-size: clamp(11px, 0.8333333333vw, 12px);
   line-height: 1.1666666667;
   color: #AAAAAA;
+}
+
+footer {
+  margin-top: 5.7142857143%;
+  background: #2B2B2B;
+  color: white;
+  padding: 7.1428571429% 8.5714285714% 3.5714285714%;
+}
+footer ul {
+  padding: 0px;
+  list-style: none;
+}
+footer ul li {
+  margin-bottom: 5px;
+}
+
+.footer__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.footer__container > * {
+  margin: 0 10px;
+}
+
+.logo {
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+.footer__items {
+  font-size: clamp(12px, 0.9722222222vw, 14px);
+  line-height: 1.1428571429;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 320px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.footer__item {
+  margin-bottom: 15px;
+  width: 50%;
+}
+
+.footer__help ul li a {
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+.footer__help ul li a:hover {
+  color: orange;
+  text-transform: uppercase;
+}
+
+.footer__links {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 130px;
+  margin-bottom: 25px;
+}
+
+.links__title {
+  margin-bottom: 17px;
+}
+
+.links__link-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__conection {
+  margin: 0 auto;
+  max-width: 330px;
+}
+.footer__conection label {
+  display: block;
+  margin-right: -10.2380952381%;
+  font-size: clamp(10.5px, 0.7638888889vw, 11px);
+  line-height: 1.1818181818;
+  color: rgba(255, 255, 255, 0.5);
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+}
+.footer__conection textarea {
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  display: block;
+  margin-bottom: 26.4705882353%;
+  resize: none;
+  width: 100%;
+  height: 55px;
+  background: transparent;
+  border-radius: 3px;
+  color: white;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 15px;
+  text-align: center;
+  font-size: 16px;
+}
+.footer__conection textarea:focus {
+  outline: none;
+  -webkit-box-shadow: 0 0 15px 1px white;
+          box-shadow: 0 0 15px 1px white;
+}
+
+.conection__title {
+  margin-bottom: 17px;
+}
+
+.conection__sub-title {
+  margin-bottom: 30px;
 }
