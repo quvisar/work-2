@@ -126,6 +126,7 @@ nav{
 }
 .activeMod{
 	transition-duration: 1s;
+	align-items: center;
 	left: 0;
 }
 .nav-items {
@@ -147,14 +148,8 @@ nav{
 	justify-content: space-between;
 	align-items: center;
 	@media(max-width:768px){
-		justify-content: center;
-		width: 100%;
-		a{
-			max-width: 100%;
-		}
-		margin:-20px -45px 50px 0;
+		display: none;
 	}
-	
 }
 .location {
 	position: relative;
@@ -228,7 +223,6 @@ nav{
 // form3
 
 .form3 {
-	// margin-top: 240px;
 	margin-top: calc(240px / 1440px * 100%);
 	text-align: center;
 	font-weight: 400;
@@ -547,6 +541,7 @@ a:hover{
 	label{
 		display: block;
 		margin-right: calc(-43px / 420px * 100%);
+		margin-left: 40px;
 		@include font-size(11px,13px);
 		color: rgba(255, 255, 255, 0.5);
 		letter-spacing: 2.4px;

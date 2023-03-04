@@ -159,6 +159,9 @@ nav {
 .activeMod {
   -webkit-transition-duration: 1s;
           transition-duration: 1s;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   left: 0;
 }
 
@@ -203,14 +206,7 @@ nav {
 }
 @media (max-width: 768px) {
   .nav-text {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    width: 100%;
-    margin: -20px -45px 50px 0;
-  }
-  .nav-text a {
-    max-width: 100%;
+    display: none;
   }
 }
 
@@ -711,6 +707,7 @@ a:hover {
 .footer__conection label {
   display: block;
   margin-right: -10.2380952381%;
+  margin-left: 40px;
   font-size: clamp(10.5px, 0.7638888889vw, 11px);
   line-height: 1.1818181818;
   color: rgba(255, 255, 255, 0.5);
